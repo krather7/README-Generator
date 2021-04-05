@@ -1,34 +1,26 @@
 
-<h1 align="center">README Generator 👋</h1>
+<h1 align="center">Kyle's README Generator</h1>
   
-![badge](https://img.shields.io/badge/license-MIT-brightgreen)<br />
+![badge](https://img.shields.io/badge/license-ISC-brightgreen)<br />
 ## Description
-🔍 My first README Generator
+A README Generator for projects
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
-- [Usage](#usage)
 - [License](#license)
 - [Contributing](#contributing)
-- [Tests](#tests)
 - [Questions](#questions)
 ## Installation
-💾 npm init, npm install inquirer, node index.js
-## Usage
-💻 This is great for people who need a quick and easy README
+npm install inquirer
 ## License
-![badge](https://img.shields.io/badge/license-MIT-brightgreen)
+![badge](https://img.shields.io/badge/license-ISC-brightgreen)
 <br />
-This application is covered by the MIT license. 
+This application is covered by the ISC license. 
 ## Contributing
-👪 Kyle Rather
-## Tests
-✏️ No
+Kyle Rather
 ## Questions
-✋ Email me with issues<br />
+Email me or Github<br />
 <br />
-:octocat: Find me on GitHub: [krather7](https://github.com/krather7)<br />
+Find me on GitHub: [krather7](https://github.com/krather7)<br />
 <br />
-✉️ Email me with any questions: krather7@gmail.com<br /><br />
-_This README was generated with ❤️ by [README-generator](https://github.com/jpd61/README-generator) 🔥🔥🔥_
-    
+Email: krather7@gmail.com<br /><br />

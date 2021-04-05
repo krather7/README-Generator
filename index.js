@@ -16,26 +16,19 @@ function promptUser(){
         {
             type: "input",
             name: "description",
-            message: "Write a brief description of your project: "
+            message: "Write a short description of the project: "
         },
         {
             type: "input",
             name: "installation",
-            message: "Describe the installation process if any: ",
-        },
-        {
-            type: "input",
-            name: "usage",
-            message: "What is this project usage for?"
+            message: "Any special installation requirements?: ",
         },
         {
             type: "list",
             name: "license",
             message: "Chose the appropriate license for this project: ",
             choices: [
-                "Apache",
                 "Academic",
-                "GNU",
                 "ISC",
                 "MIT",
                 "Mozilla",
@@ -45,27 +38,22 @@ function promptUser(){
         {
             type: "input",
             name: "contributing",
-            message: "Who are the contributors of this projects?"
-        },
-        {
-            type: "input",
-            name: "tests",
-            message: "Is there a test included?"
+            message: "Who are the contributers to this project?"
         },
         {
             type: "input",
             name: "questions",
-            message: "What do I do if I have an issue? "
+            message: "What to do if issues arise? "
         },
         {
             type: "input",
             name: "username",
-            message: "Please enter your GitHub username: "
+            message: "Input GitHub username: "
         },
         {
             type: "input",
             name: "email",
-            message: "Please enter your email: "
+            message: "Input contact email: "
         }
     ]);
 } 
@@ -78,7 +66,7 @@ function promptUser(){
         const generateContent = generateReadme(answers);
         // Write new README.md to dist directory
         await writeFileAsync('./dist/README.md', generateContent);
-        console.log('✔️  Successfully wrote to README.md');
+        console.log('Generated README.md complete!');
     }   catch(err) {
         console.log(err);
     }
