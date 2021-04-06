@@ -1,3 +1,3 @@
 # README-Generator
 
-![README Demo](README Demo.webm)
+![README Demo](READMEDemo.gif)
